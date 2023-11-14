@@ -1,0 +1,153 @@
+/* Arquivo style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#portfolio {
+    background-color: #f0f0f0;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projeto {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.projeto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projeto h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.projeto p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.projeto a {
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.projeto a:hover {
+    background-color: #555;
+}
+
+#contato {
+    background-color: #333;
+    color: white;
+}
+
+#contato form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contato label {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#contato input, #contato textarea {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#contato button {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: #333;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #555;
+    color: white;
+}
+
+#resposta {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+}
+
+.redes-sociais img {
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

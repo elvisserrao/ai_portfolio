@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Meu Site Pessoal</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Olá, eu sou Sandro Rogério Lopes Cassajuz</h1>
+        <p>Eu sou um desenvolvedor web apaixonado por tecnologia e inovação.</p>
+    </header>
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Eu tenho 25 anos e moro em Salvador, Bahia. Eu me formei em Sistemas de Informação pela Universidade Federal da Bahia e atualmente trabalho como freelancer em projetos web.</p>
+        <p>Eu gosto de aprender novas linguagens e ferramentas, e de criar sites criativos e funcionais. Eu tenho experiência com HTML, CSS, JavaScript, Bootstrap, jQuery, PHP, MySQL e WordPress.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Meu portfólio</h2>
+        <div class="projetos">
+            <div class="projeto">
+                <img src="projeto1.jpg" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Um site de e-commerce para uma loja de roupas.</p>
+                <a href="https://projeto1.com" target="_blank">Ver site</a>
+            </div>
+            <div class="projeto">
+                <img src="projeto2.jpg" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Um site de portfólio para um fotógrafo.</p>
+                <a href="https://projeto2.com" target="_blank">Ver site</a>
+            </div>
+            <div class="projeto">
+                <img src="projeto3.jpg" alt="Projeto 3">
+                <h3>Projeto 3</h3>
+                <p>Um site de blog para um escritor.</p>
+                <a href="https://projeto3.com" target="_blank">Ver site</a>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Entre em contato</h2>
+        <p>Se você quiser saber mais sobre mim, meus projetos ou me contratar para um trabalho, você pode me enviar uma mensagem pelo formulário abaixo ou pelas redes sociais.</p>
+        <form id="form-contato" onsubmit="enviarMensagem(event)">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit" id="botao-enviar">Enviar</button>
+        </form>
+        <div id="resposta"></div>
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com/sandro.cassajuz" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/sandro_cassajuz" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/in/sandro-cassajuz" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.github.com/sandro-cassajuz" target="_blank"><img src="github.png" alt="GitHub"></a>
+        </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados © Sandro Rogério Lopes Cassajuz 2023</p>
+    </footer>
+</body>
+</html>
